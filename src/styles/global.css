@@ -1,0 +1,39 @@
+body {
+  background-color: antiquewhite;
+}
+#container {
+  max-width: 1200px;
+  width: 90%;
+  background-color: tomato;
+  margin: auto;
+  margin-top: 50px;
+}
+
+header {
+  min-height: 120px;
+  background-color: salmon;
+  padding: 1rem;
+}
+main {
+  min-height: 120px;
+  background-color: white;
+  color: #333;
+  line-height: 1.7;
+  padding: 1rem;
+  min-height: 300px;
+}
+footer {
+  min-height: 120px;
+  background-color: tan;
+  padding: 1rem;
+}
+header > h1 {
+  text-align: center;
+}
+nav {
+  background-color: darkgoldenrod;
+  padding: 1rem;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
